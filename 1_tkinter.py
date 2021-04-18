@@ -32,5 +32,5 @@ label1.place(x=100,y=100)
 label2 = Label(root,text="Text 2")
 label2.place(x=w//2,y=h//2)   # center of full with screen
 label3 = Label(root,text="Text 3")
-label3.place(x=200,y=300)
+label3.place(x=200,y=300,height=100,relwidth=0.5)
 root.mainloop()
